@@ -1,0 +1,21 @@
+const name = 'samim';
+
+Write a function that will take the inout(name) and reverse it(ex: mimas)  and finally rturn it
+
+function reverseName(name){
+.....
+//split 
+//reverse 
+//Join
+}
+
+consoel.log(reverseName(name))
+
+
+
+function sum(arr){
+// should return sum of array values
+}
+
+const arr = [1, 2, 3]
+console.log(sum(arr))

@@ -1,0 +1,21 @@
+
+// primitives
+//===================================================
+// string - anything wrapped in quotation '' or  ""
+//number - any number with or without decimal value
+//boolean - true or false
+//undefined
+//null
+//Symbol
+//bigint
+
+// object/complex data type/Reference data type
+  //object
+  //array
+  //function
+
+//homework
+const firstName = 'samim';
+const lastName = 'Fazlu';
+const age = 25;
+const profession = 'web developer';

@@ -1,0 +1,84 @@
+//setting variable
+// const productName = 'potato';
+// const productPrice = 30;
+// const productQuantity = 3;
+// const productIsAvailable = true;
+
+//Data-type (Array)
+// const productInfArr = ['potato', 30, 3, true];
+
+//index count start from 0 incase of array
+// console.log(productInfo[0]);
+// console.log(productInfo[3]);
+
+//accessing properties incase object
+// console.log(productInfoObj['productName']);
+// console.log(productInfoObj.productName);
+
+// console.log(productInfoObj['productQuantity']);
+// console.log(productInfoObj.productQuantity);
+
+ //Array destructuring
+const productInfoArr = ['potato', 30, 3, true];
+
+const [productName, productPrice,,productIsAvailable] = productInfoArr
+//index count start from 0
+console.log(productName, productPrice, productIsAvailable)
+
+//loop - to avoid repeated action
+//for loop
+//while loop
+
+//loop has start and end
+
+// const productInfoArr = ['potato', 30, 3, true];
+// console.log(productInfoArr.length);
+// for (let i = 0; i < productInfoArr.length; i += 1) {
+//   console.log(i);
+//   console.log(productInfoArr[i]);
+// }
+
+
+//while loop
+// let i = 0
+
+// while(i < 10) {
+//   console.log(i);
+//   i++
+// }
+// let i = 0;
+// while (i < productInfoArr.length) {
+//   console.log(productInfoArr[i]);
+//   i++;
+// }
+
+
+
+// for (let i = 0; i < arr.length; i++){
+//   console.log(arr[i])
+// }
+
+arr.forEach(function (el) {
+  console.log(el)
+})
+
+//for of loop
+for (let el of arr) {
+  console.log(el)
+}
+
+const obj = {
+  productName: 'banana',
+  productPrice: 30,
+  productQuantity: 3,
+  productIsAvailable: true
+}
+
+//for in loop
+for (let el in obj) {
+  console.log(obj[el])
+}
+
+//you can use for in loop incase of array but not recommended
+
+console.log(arr)

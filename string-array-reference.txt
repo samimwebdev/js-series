@@ -1,0 +1,63 @@
+
+Array Reference
+=======================================================
+//const arr = ['I', 'Love', 'Programming'];
+
+//finding length
+// console.log(arr.length);
+//accessing specific element
+// console.log(arr[0]);
+
+// adding or removing element at the end of the array
+// console.log(arr.push('!'));
+// console.log(arr.pop('!'));
+
+// adding or removing element at the beginning of the array
+// console.log(arr.unshift('We'));
+// console.log(arr.shift('We'));
+
+// accessing specific part of array
+// console.log(arr.slice(1,3));
+// console.log(arr.splice(0,2));
+
+//concat
+// console.log(arr.concat(['!']));
+
+//emptying array
+// arr.length = 0
+
+
+string Reference
+============================================
+//const text = 'I love programming';
+//finding length
+// console.log(text.length);
+// finding character/element
+// console.log(text[0]);
+
+// finding character by index
+// console.log(text.charAt(5));
+
+// finding index by character
+// console.log(text.indexOf('e'));
+// uppercase
+// console.log(text.toUpperCase());
+// lowercase
+// console.log(text.toLowerCase());
+// check whether text is included or not
+// console.log(text.includes('w'));
+
+// //remove space
+// console.log(text.trimStart().length);
+// console.log(text.trimEnd().length);
+// console.log(text.trim());
+
+// //pulling out text
+// console.log(text.slice(0, 6));
+// console.log(text.substr(0, 6));
+
+// //concat
+// console.log(text.concat('!'));
+
+// //converting/creating array from a string
+// console.log(text.split(' '));
